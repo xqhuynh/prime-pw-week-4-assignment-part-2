@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.links {
+  text-decoration: none;
+  padding-left: 20px;
+  color: white;
+}
+
+.info {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: rgb(56, 116, 195);
+  color: white;
+}
+
+.carousel {
+  background-color: rgba(140, 137, 136, 0.974);
+}
+
+.carousel img {
+  margin: auto;
+}
+
+#features {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.features-items {
+  display: flex;
+}
+
+p {
+  padding-left: 15px;
+}
