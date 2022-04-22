@@ -6,7 +6,7 @@ body {
 
 .nav-container {
   display: flex;
-  background-color: black;
+  background-color: rgb(60, 65, 131);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -21,7 +21,7 @@ body {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 20px;
-  background-color: rgb(56, 116, 195);
+  background-color: rgba(46, 52, 60, 0.974);
   color: white;
 }
 
@@ -33,6 +33,12 @@ body {
   margin: auto;
 }
 
+.features-header {
+  margin-top: 50px;
+  text-align: center;
+  color: rgb(43, 43, 133);
+}
+
 #features {
   display: grid;
   grid-template-columns: 200px 200px;
@@ -40,4 +46,5 @@ body {
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 100px;
+  column-gap: 25px;
 }
